@@ -1,0 +1,11 @@
+venv/
+.venv/
+data/cache/
+data/processed/
+outputs/
+models/
+__pycache__/
+.DS_Store
+*.pkl
+catboost_*
+qualifying_results.csv
