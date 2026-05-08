@@ -1,0 +1,11 @@
+fastf1
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+shap
+flaml[automl]
+jupyter
+ipykernel
