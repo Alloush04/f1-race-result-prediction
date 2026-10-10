@@ -2,7 +2,6 @@ venv/
 .venv/
 data/cache/
 data/processed/
-outputs/
 models/
 __pycache__/
 .DS_Store
