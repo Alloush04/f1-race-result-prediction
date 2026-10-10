@@ -48,10 +48,9 @@ Running the modelling notebook writes the full comparison table and figures to `
 
 ```
 notebooks/
-  01_data_collection.ipynb
-  02_EDA.ipynb
-  03_preprocessing.ipynb
-  04_modelling.ipynb
+  01_data_collection.ipynb   pulls qualifying and race results from FastF1
+  02_preprocessing.ipynb     cleans the data and builds the features
+  03_modelling.ipynb         trains, compares and explains the models
 data/       created locally, not committed
 outputs/    figures and results table, plus requirements.txt
 ```
@@ -64,7 +63,7 @@ pip install -r outputs/requirements.txt
 jupyter notebook
 ```
 
-Run data collection first, then preprocessing, then modelling. Data collection is rate limited by the F1 timing API, so the first run takes a while. Later runs use the local FastF1 cache.
+Run the notebooks in order. Data collection is rate limited by the F1 timing API, so the first run takes a while. Later runs use the local FastF1 cache.
 
 ## Tools
 
